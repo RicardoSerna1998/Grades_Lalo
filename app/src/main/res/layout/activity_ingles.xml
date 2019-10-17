@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fisica">
+    <TextView
+        android:id="@+id/TVpromedioTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inglés"
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcial 1"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/ETparcial1"
+        android:layout_width="100dp"
+        android:text="0"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcial 2"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/ETparcial2"
+        android:layout_width="100dp"
+        android:text="0"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcial 3"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/ETparcial3"
+        android:layout_width="100dp"
+        android:text="0"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/BtnCalcularFisica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Calcular"/>
+
+    <TextView
+        android:id="@+id/TVpromedioFisica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promedio: "
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp" />
+
+</LinearLayout>
